@@ -1,0 +1,24 @@
+{
+    "baseUrl": "http://localhost:8887",
+    "snack":{
+        "successIcon" : "mdi-information",
+        "successColor" : "success",
+        "failureIcon": "mdi-close-circle-outline",
+        "failureColor" : "warning"
+    },
+    "chartData": {
+        "labels": ["SEC A", "SEC B", "SEC C"],
+        "datasets": [
+          {
+            "label": "Boys",
+            "data":  [18,92,73],
+            "backgroundColor": "blue"
+          },
+          {
+            "label": "Girls",
+            "data": [12.4,32,43],
+            "backgroundColor": "pink"
+          }
+        ]
+      }
+}
